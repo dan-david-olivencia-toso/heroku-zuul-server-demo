@@ -1,14 +1,14 @@
 zuul:
   routes:
-    get:
-      path: /get/**
-      url: http://httpbin.org/get
-    links:
-      path: /links/**
-      url: http://httpbin.org/links
-    images:
-      path: /image/**
-      url: http://httpbin.org/image
+    obra:
+      path: /obra/**
+      url: https://dan-usuarios-staging.herokuapp.com/api/obra
+    cliente:
+      path: /cliente/**
+      url: https://dan-usuarios-staging.herokuapp.com/api/cliente
+    empleado:
+      path: /empleado/**
+      url: https://dan-usuarios-staging.herokuapp.com/api/empleado
 
 eureka:
   client:
