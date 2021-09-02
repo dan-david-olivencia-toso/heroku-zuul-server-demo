@@ -10,6 +10,7 @@ import org.springframework.stereotype.Controller;
 @Configuration
 @Controller
 @EnableZuulProxy
+@CrossOrigin(maxAge = 86400)
 public class ZuulServerApplication {
   public static void main(String[] args) {
     new SpringApplicationBuilder(ZuulServerApplication.class).web(true).run(args);
