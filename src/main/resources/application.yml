@@ -9,3 +9,10 @@ zuul:
     empleado:
       path: /empleado/**
       url: http://dan-usuarios-staging.herokuapp.com/api/empleado
+    pago:
+      path: /pago/**
+      url: https://dan-dot-pagos-staging.herokuapp.com/api/pago
+    pedido:
+      path: /pedido/**
+      url: https://dan-dot-pedidos-staging.herokuapp.com/api/pedido
+
